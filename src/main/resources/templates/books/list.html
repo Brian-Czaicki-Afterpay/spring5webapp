@@ -18,6 +18,18 @@
         <td th:text="${book.publisher.name}">Wrox</td>
     </tr>
 </table>
+<table>
+    <tr>
+     <th>Author Id</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+    </tr>
+    <tr th:each="author : ${authors}">
+        <td th:text="${author.id}">1</td>
+        <td th:text="${author.Firstname}">The Hobbit</td>
+        <td th:text="${author.Lastname}">Wrox</td>
+    </tr>
+</table>
 
 </body>
 </html>

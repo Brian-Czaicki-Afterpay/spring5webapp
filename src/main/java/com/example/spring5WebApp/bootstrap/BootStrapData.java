@@ -39,7 +39,7 @@ public class BootStrapData implements CommandLineRunner {
         Publisher worx = new Publisher(
                 "Worx",
                 "579 Broadway",
-                ",
+                "",
                 "New York",
                 "NY",
                 "10011",
